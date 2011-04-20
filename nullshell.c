@@ -47,6 +47,8 @@ static char* commands[] = {
 char * dupstr (char *s) {
        char *r;
      
+       if(s == NULL)
+		return NULL;
        r = malloc (strlen (s) + 1);
        if(r == NULL)
 		return NULL;
