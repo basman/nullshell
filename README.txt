@@ -6,6 +6,14 @@ Purpose:
 	just letting them create SSH tunnels without further shell
 	related functions.
 
+Commands and Features:
+
+	- tab command completion
+	- exit		leave the nullshell
+	- help		list available commands
+	- logout	see exit
+	- version 	show version
+
 Setup:
 	1. compile nullshell.c
 	   You need the ubuntu package libreadline5-dev (or just
