@@ -1,12 +1,17 @@
 nullshell - a less than minimal shell
 =====================================
 
+
 Purpose:
+----------------------
+
 	I wanted to grant some friends access to my SSH server,
 	just letting them create SSH tunnels without further shell
 	related functions.
 
+
 Commands and Features:
+----------------------
 
 	- tab command completion
 	- exit		leave the nullshell
@@ -14,7 +19,10 @@ Commands and Features:
 	- logout	see exit
 	- version 	show version
 
+
 Setup:
+----------------------
+
 	1. compile nullshell.c
 	   You need the ubuntu package libreadline5-dev (or just
 	   the source of libreadline).
