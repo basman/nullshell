@@ -2,7 +2,7 @@ nullshell - a less than minimal shell
 =====================================
 
 Purpose:
-	I wanted to grant some friends acceess to my SSH server,
+	I wanted to grant some friends access to my SSH server,
 	just letting them create SSH tunnels without further shell
 	related functions.
 
